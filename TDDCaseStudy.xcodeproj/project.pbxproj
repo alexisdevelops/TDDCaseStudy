@@ -15,6 +15,10 @@
 		5E6BF7A0262DFF02003BFEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6BF79E262DFF02003BFEB1 /* LaunchScreen.storyboard */; };
 		5E6BF7AB262DFF02003BFEB1 /* TDDCaseStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BF7AA262DFF02003BFEB1 /* TDDCaseStudyTests.swift */; };
 		5E6BF7B6262DFF02003BFEB1 /* TDDCaseStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BF7B5262DFF02003BFEB1 /* TDDCaseStudyUITests.swift */; };
+		5E6BF7CA262E250D003BFEB1 /* Storms in Resources */ = {isa = PBXBuildFile; fileRef = 5E6BF7C9262E250D003BFEB1 /* Storms */; };
+		5E6BF7CF262E3A2D003BFEB1 /* DetailTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BF7CE262E3A2D003BFEB1 /* DetailTest.swift */; };
+		5E6BF7D4262E3A6F003BFEB1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BF7D3262E3A6F003BFEB1 /* DetailViewController.swift */; };
+		5E6BF7D9262F8397003BFEB1 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BF7D8262F8397003BFEB1 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		5E6BF7B1262DFF02003BFEB1 /* TDDCaseStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDCaseStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6BF7B5262DFF02003BFEB1 /* TDDCaseStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDCaseStudyUITests.swift; sourceTree = "<group>"; };
 		5E6BF7B7262DFF02003BFEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E6BF7C9262E250D003BFEB1 /* Storms */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Storms; path = TDDCaseStudy/Storms; sourceTree = "<group>"; };
+		5E6BF7CE262E3A2D003BFEB1 /* DetailTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTest.swift; sourceTree = "<group>"; };
+		5E6BF7D3262E3A6F003BFEB1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5E6BF7D8262F8397003BFEB1 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		5E6BF787262DFF01003BFEB1 = {
 			isa = PBXGroup;
 			children = (
+				5E6BF7C9262E250D003BFEB1 /* Storms */,
 				5E6BF792262DFF01003BFEB1 /* TDDCaseStudy */,
 				5E6BF7A9262DFF02003BFEB1 /* TDDCaseStudyTests */,
 				5E6BF7B4262DFF02003BFEB1 /* TDDCaseStudyUITests */,
@@ -106,6 +115,8 @@
 				5E6BF79C262DFF02003BFEB1 /* Assets.xcassets */,
 				5E6BF79E262DFF02003BFEB1 /* LaunchScreen.storyboard */,
 				5E6BF7A1262DFF02003BFEB1 /* Info.plist */,
+				5E6BF7D3262E3A6F003BFEB1 /* DetailViewController.swift */,
+				5E6BF7D8262F8397003BFEB1 /* MainCoordinator.swift */,
 			);
 			path = TDDCaseStudy;
 			sourceTree = "<group>";
@@ -115,6 +126,7 @@
 			children = (
 				5E6BF7AA262DFF02003BFEB1 /* TDDCaseStudyTests.swift */,
 				5E6BF7AC262DFF02003BFEB1 /* Info.plist */,
+				5E6BF7CE262E3A2D003BFEB1 /* DetailTest.swift */,
 			);
 			path = TDDCaseStudyTests;
 			sourceTree = "<group>";
@@ -233,6 +245,7 @@
 			files = (
 				5E6BF7A0262DFF02003BFEB1 /* LaunchScreen.storyboard in Resources */,
 				5E6BF79D262DFF02003BFEB1 /* Assets.xcassets in Resources */,
+				5E6BF7CA262E250D003BFEB1 /* Storms in Resources */,
 				5E6BF79B262DFF01003BFEB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +274,8 @@
 				5E6BF798262DFF01003BFEB1 /* ViewController.swift in Sources */,
 				5E6BF794262DFF01003BFEB1 /* AppDelegate.swift in Sources */,
 				5E6BF796262DFF01003BFEB1 /* SceneDelegate.swift in Sources */,
+				5E6BF7D9262F8397003BFEB1 /* MainCoordinator.swift in Sources */,
+				5E6BF7D4262E3A6F003BFEB1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6BF7CF262E3A2D003BFEB1 /* DetailTest.swift in Sources */,
 				5E6BF7AB262DFF02003BFEB1 /* TDDCaseStudyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
